@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   <title>Living Room Options</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+		transition: opacity 0.5s ease; /* Add transition for opacity */
+        
+			
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+		
+		h2 {
+		color:black;
+		padding:20px;
+		text-align:center;
+		}
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+			
+        }
+
+        .room-card {
+            width: 300px;
+			height:600px;
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		      transition: transform 0.3s ease; /* Add transition for transform */
+        }
+
+        .mansion-card:hover {
+            transform: scale(1.05); /* Increase scale on hover */
+        }
+
+        .room-card img {
+            width: 100%;
+			height: 40%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+	
+		
+    </style>
+
+<body>
+
+    <header>
+	<h1>𝐓𝐇𝐄 𝐈𝐍𝐓𝐄𝐑𝐈𝐎𝐑</h1>
+        
+    </header>
+	
+	<h2>Living Room Options</h2>
+
+      
+
+
+    <section>
+        <!-- Living Room 1 -->
+        <div class="room-card" onclick="redirectToInterior('Interior.html')"   >
+            <img src="images/l.jpg" alt="Living Room 1">
+            <h2>Living Room 1</h2>
+			<h4>Description:</h4>
+            <p>Step into a living room that seamlessly blends modern aesthetics with timeless elegance. The color palette features neutral tones such as soft grays and whites, creating a soothing and sophisticated atmosphere. Sleek furniture with clean lines and metallic accents add a touch of contemporary flair. </p>
+        </div>
+
+        <!-- Living Room 2 -->
+        <div class="room-card">
+            <img src="images/l1.jpg" alt="Living Room 2">
+            <h2>Living Room 2</h2>
+			<h4>Description:</h4>
+            <p>Sink into the plush comfort of this inviting living room. Warm earthy tones dominate the decor, creating a cozy and welcoming ambiance. Overstuffed sofas and armchairs are adorned with soft throws and cushions, creating the perfect spot for relaxation.</p>
+        </div>
+		
+		 <!-- Living Room 3 -->
+        <div class="room-card">
+            <img src="images/l2.jpg" alt="Living Room 3">
+            <h2>Living Room 3</h2>
+			<h4>Description:</h4>
+            <p>Immerse yourself in a living room that exudes bohemian vibes and eclectic charm. Vibrant colors, patterns, and textures collide in a harmonious chaos, creating a space that feels free-spirited and full of character. Low-seated sofas adorned with patterned throws, Moroccan rugs, and an array of mismatched cushions evoke a sense of wanderlust. </p>
+        </div>
+
+        <!-- Living Room 4 -->
+        <div class="room-card">
+            <img src="images/l3.jpg" alt="Living Room 4">
+            <h2>Living Room 4</h2>
+			<h4>Description:</h4>
+            <p>Enter a living room inspired by Scandinavian design principles - simplicity, functionality, and a connection to nature. Light, neutral tones dominate the space, creating a bright and airy feel. Clean-lined furniture, often made from natural materials like wood and leather, exudes a sense of understated elegance.</p>
+        </div>
+		
+		   <!-- Living Room 5 -->
+        <div class="room-card">
+            <img src="images/l4.jpg" alt="Living Room 5">
+            <h2>Living Room 5</h2>
+			<h4>Description:</h4>
+            <p>Step into a living room that celebrates the beauty of simplicity. Clean lines, a neutral color palette, and a lack of clutter create a minimalist haven that promotes a sense of calm and order. Functional furniture with sleek designs is carefully arranged to maximize space. </p>
+        </div>
+		
+		 <!-- Living Room 6 -->
+        <div class="room-card">
+            <img src="images/l6.jpg" alt="Living Room 6">
+            <h2>Living Room 6</h2>
+			<h4>Description:</h4>
+            <p>Embrace the grace of a timeless classic living room where traditional elegance meets modern comfort. Rich, deep hues dominate the color scheme, complemented by luxurious fabrics and finishes. Antique furniture pieces coexist harmoniously with contemporary elements, creating a sense of enduring style.</p>
+        </div>
+
+
+        <!-- Add more living room cards as needed -->
+
+
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Living Room Options</p>
+    </footer>
+	   <script>
+        function redirectToInterior(url) {
+            document.body.style.opacity = '0';
+            document.body.addEventListener('transitionend', function() {
+                window.location.href = url;
+            }, { once: true });
+        }
+    </script>
+	
+	
+	<h2>Kitchen Options</h2>
+
+      
+
+
+    <section>
+        <!-- Kitchen 1 -->
+        <div class="room-card" onclick="redirectToInterior('Interior.html')"   >
+            <img src="images/k1.jpg" alt="Kitchen 1">
+            <h2>Kitchen 1</h2>
+			<h4>Description</h4>
+            <p>Welcome to a sleek and contemporary kitchen designed for both aesthetics and functionality. Crisp lines, minimalist cabinetry, and stainless steel appliances create a polished and efficient workspace. </p>
+        </div>
+
+        <!-- Kitchen 2 -->
+        <div class="room-card">
+            <img src="images/k2.jpg" alt="Kitchen 2">
+            <h2>Kitchen 2</h2>
+			<h4>Description</h4>
+            <p>A large, inviting dining table becomes the heart of the room, inviting family and friends to gather for delicious meals and meaningful conversations.</p>
+        </div>
+		
+		 <!-- Kitchen 3 -->
+        <div class="room-card">
+            <img src="images/k3.jpg" alt="Kitchen 3">
+            <h2>Kitchen 3</h2>
+			<h4>Description</h4>
+            <p> The kitchen island, equipped with state-of-the-art appliances, serves as a focal point for both cooking and casual dining, making it an ideal space for culinary creativity and social gatherings.</p>
+        </div>
+
+        <!-- Kitchen 4 -->
+        <div class="room-card">
+            <img src="images/k4.jpg" alt="Kitchen 4">
+            <h2>Kitchen 4</h2>
+			<h4>Description</h4>
+            <p>Enter a kitchen designed for the hustle and bustle of family life, where comfort meets functionality. Warm, earthy tones and wooden accents create a welcoming atmosphere. </p>
+        </div>
+		
+		   <!-- Kitchen 5 -->
+        <div class="room-card">
+            <img src="images/k5.jpg" alt="Kitchen 5">
+            <h2>Kitchen 5</h2>
+			<h4>Description</h4>
+            <p>A well-designed layout ensures efficient workflow, making this kitchen a stylish and practical space for culinary endeavors. </p>
+        </div>
+		
+		 <!-- Kitchen 6 -->
+        <div class="room-card">
+            <img src="images/k6.jpg" alt="Kitchen 6">
+            <h2>Kitchen 6</h2>
+			<h4>Description</h4>
+            <p>Indulge in the sophistication of an urban retreat kitchen that combines elegance with modern convenience. Dark, rich tones, create a luxurious backdrop for sleek cabinetry and high-end appliances. </p>
+        </div>
+	
+	</section>
+			 <footer>
+        <p>&copy; 2024 Kitchen Options</p>
+    </footer>
+     <script>
+        function redirectToInterior(url) {
+            document.body.style.opacity = '0';
+            document.body.addEventListener('transitionend', function() {
+                window.location.href = url;
+            }, { once: true });
+        }
+    </script>
+
+
+<h2>Bathroom Options</h2>
+
+      
+
+
+    <section>
+        <!-- Bathroom 1 -->
+        <div class="room-card" onclick="redirectToInterior('Interior.html')"   >
+            <img src="images/b.jpg" alt="Bathroom 1">
+            <h2>Bathroom 1</h2>
+			<h4>Description</h4>
+            <p>Step into a bathroom designed to evoke the tranquility of a spa retreat. Soft, neutral tones dominate the color palette, creating a calming and soothing atmosphere</p>
+        </div>
+
+        <!-- Bathroom 2 -->
+        <div class="room-card">
+            <img src="images/b1.jpg" alt="Bathroom 2">
+            <h2>Bathroom 2</h2>
+			<h4>Description</h4>
+            <p>Experience the simplicity and elegance of a modern minimalist bathroom. Clean lines, neutral colors, and streamlined fixtures contribute to a clutter-free and serene environment.</p>
+        </div>
+		
+		 <!-- Bathroom 3 -->
+        <div class="room-card">
+            <img src="images/b2.jpg" alt="Bathroom 3">
+            <h2>Bathroom 3</h2>
+			<h4>Description</h4>
+            <p>Enter a bathroom that exudes timeless elegance with classic design elements. Rich marble or granite surfaces, intricate tile patterns, and antique-inspired fixtures create a sense of opulence. </p>
+        </div>
+
+        <!-- Bathroom 4 -->
+        <div class="room-card">
+            <img src="images/b3.jpg" alt="Bathroom 4">
+            <h2>Bathroom 4</h2>
+			<h4>Description</h4>
+            <p>Step into a bathroom that embraces modern technology and cutting-edge design. Sleek, glossy surfaces, LED-lit mirrors, and smart fixtures create a futuristic aesthetic.</p>
+        </div>
+		
+		   <!-- Bathroom 5 -->
+        <div class="room-card">
+            <img src="images/b4.jpg" alt="Bathroom 5">
+            <h2>Bathroom 5</h2>
+			<h4>Description</h4>
+            <p>Bold and vibrant colors, unique tile patterns, and eye-catching fixtures turn this space into a gallery of design.</p>
+        </div>
+		
+		 <!-- Bathroom 6 -->
+        <div class="room-card">
+            <img src="images/b5.jpg" alt="Bathroom 6">
+            <h2>Bathroom 6</h2>
+			<h4>Description</h4>
+            <p>Freestanding metal vanities and open shelving contribute to the edgy yet sophisticated atmosphere. </p>
+        </div>
+	</section>
+			 <footer>
+        <p>&copy; 2024 Bathroom Options</p>
+    </footer>
+     <script>
+        function redirectToInterior(url) {
+            document.body.style.opacity = '0';
+            document.body.addEventListener('transitionend', function() {
+                window.location.href = url;
+            }, { once: true });
+        }
+    </script>
+
+
+
+<h2>Bedroom Options</h2>
+
+      
+
+
+    <section>
+        <!-- Bathroom 1 -->
+        <div class="room-card" onclick="redirectToInterior('Interior.html')"   >
+            <img src="images/bd1.jpg" alt="Bathroom 1">
+            <h2>Bedroom 1</h2>
+			<h4>Description</h4>
+            <p>Step into a bedroom inspired by Scandinavian design principles, where simplicity and functionality reign supreme. A neutral color palette, light wood furniture, and minimalist decor create a serene and airy atmosphere.</p>
+        </div>
+
+        <!-- Bathroom 2 -->
+        <div class="room-card">
+            <img src="images/bd2.jpg" alt="Bathroom 2">
+            <h2>Bedroom 2</h2>
+			<h4>Description</h4>
+            <p>An eclectic mix of patterns, textures, and colors creates a visually stimulating environment. Low-slung furniture, layered textiles, and an array of unique decor pieces showcase a free-spirited style. </p>
+        </div>
+		
+		 <!-- Bathroom 3 -->
+        <div class="room-card">
+            <img src="images/bd3.jpg" alt="Bathroom 3">
+            <h2>Bedroom 3</h2>
+			<h4>Description</h4>
+            <p>Enter a bedroom that exudes timeless romance, where soft hues, plush fabrics, and elegant details create an intimate atmosphere. </p>
+        </div>
+
+        <!-- Bathroom 4 -->
+        <div class="room-card">
+            <img src="images/bd4.jpg" alt="Bedroom 4">
+            <h2>Bedroom 4</h2>
+			<h4>Description</h4>
+            <p>Immerse yourself in the sophistication of a modern urban oasis, where clean lines, sleek furniture, and a monochromatic color scheme create a chic and contemporary retreat.</p>
+        </div>
+		
+		   <!-- Bathroom 5 -->
+        <div class="room-card">
+            <img src="images/bd8.jpg" alt="Bathroom 5">
+            <h2>Bedroom 5</h2>
+			<h4>Description</h4>
+            <p>Indulge in the glamour of a Hollywood Regency-style bedroom, where luxury and elegance take center stage.</p>
+        </div>
+		
+		 <!-- Bathroom 6 -->
+        <div class="room-card">
+            <img src="images/bd9.jpg" alt="Bathroom 6">
+            <h2>Bedroom 6</h2>
+			<h4>Description</h4>
+            <p>Step into the future with a bedroom that seamlessly integrates smart technology. Smart lighting, automated window treatments, and a state-of-the-art entertainment system enhance the bedroom experience.</p>
+        </div>
+	</section>
+	 <footer>
+        <p>&copy; 2024 Bedroom Options</p>
+    </footer>
+  <script>
+        function redirectToInterior(url) {
+            document.body.style.opacity = '0';
+            document.body.addEventListener('transitionend', function() {
+                window.location.href = url;
+            }, { once: true });
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
+
+
